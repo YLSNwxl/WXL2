@@ -1,0 +1,14 @@
+<view class="check">
+<input class="input" bindinput="inputting" placeholder="请输入您要去的地方"></input>
+<button type="primary" class="button" bindtap="navigate">导航</button>
+</view>
+<view class="big">
+<map id="map"
+longitude="{{longitude}}"
+latitude="{{latitude}}"
+scale="14"
+markers="{{markers}}"
+show-location="true"
+>
+</map>
+</view>

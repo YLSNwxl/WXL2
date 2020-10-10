@@ -1,0 +1,19 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/first/first",
+    "pages/logs/logs"
+  ],
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于获取当地天气信息"
+    }
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#6d46ca",
+    "navigationBarTitleText": "蓝图",
+    "navigationBarTextStyle": "white"
+  },
+  "sitemapLocation": "sitemap27.json"
+}
